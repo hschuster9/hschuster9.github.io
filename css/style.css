@@ -1,11 +1,51 @@
-body {
-
-  background-image: url('http://worldlightmedia.com/wp-content/uploads/2016/01/InternshipProgram.png');
-background-repeat: no-repeat;
-background-size: cover;
+header {
+  background-color: white;
+  position: fixed;
+  height: 80px;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+  padding-right: 20px;
+  color: #5cb262;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
 }
-.container {
+#title {
+  font-size: 15x;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.headers {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  font-size: 50px;
+  margin-top: 15%;
+}
+
+.home {
+  color: red;
+}
+
+.photo {
+position: fixed;
+background-size: cover;
+/*background-image: url('http://worldlightmedia.com/wp-content/uploads/2016/01/InternshipProgram.png');*/
+/*background-repeat: no-repeat;
+background-size: cover;*/
+/*background-image: url('../images/photo.png');*/
+
+}
+
+
+
+/*.container {
   background-color: rgba(0,0,0,.6);
   height: 100%;
   width: 100%;
@@ -13,9 +53,9 @@ background-size: cover;
   top: 0px;
   left: 0px;
 
-}
+}*/
 
-h1, h2 {
+/*h1, h2 {
   font-size: 50px;
   color: white;
   font-family: 'Rambla', sans-serif;
@@ -29,13 +69,13 @@ h2 {
 
 .name{
   margin: 180px 50px;
-}
+}*/
 
 nav {
-  display: flex;
+  /*display: flex;
   justify-content: center;
-  align-items: center;
-  font-family: 'Rambla', sans-serif;
+  align-items: center;*/
+  font-family: 'Quicksand', sans-serif;
   margin-top: 14px;
 
 }
@@ -48,5 +88,5 @@ nav a{
   font-size: 18px;
   list-style-type: none;
   text-decoration: none;
-  color: rgb(120, 236, 135);
+  color: #43ad4a;
 }
