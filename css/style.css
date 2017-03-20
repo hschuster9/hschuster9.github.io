@@ -14,6 +14,10 @@ header {
   justify-content: space-between;
 
 }
+
+.linkstyle {
+  text-decoration: none;
+}
 #title {
   font-size: 15x;
 }
@@ -21,6 +25,16 @@ header {
 body {
     font-family: 'Quicksand', sans-serif;
 }
+
+
+/*body{*/
+
+/*background-image: url('http://worldlightmedia.com/wp-content/uploads/2016/01/InternshipProgram.png');*/
+/*background-repeat: no-repeat;
+background-size: cover;*/
+/*background: url('../images/photo.png') no-repeat center center fixed;
+}*/
+
 
 .headers {
   font-family: 'Quicksand', sans-serif;
@@ -89,4 +103,13 @@ nav a{
   list-style-type: none;
   text-decoration: none;
   color: #43ad4a;
+}
+
+.pictureLink {
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  background-image: url("/images/tennis.png");
+  background-size: cover;
+  justify-content: center;
 }
