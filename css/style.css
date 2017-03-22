@@ -39,15 +39,15 @@ background-size: cover;*/
 .headers {
   font-family: 'Quicksand', sans-serif;
   color: black;
-  font-size: 50px;
-  margin-top: 15%;
+  margin-top: 5%;
+  text-align: center;
 }
 
 .home {
   color: red;
 }
 
-.photo {
+/*.photo {
 position: fixed;
 background-size: cover;
 /*background-image: url('http://worldlightmedia.com/wp-content/uploads/2016/01/InternshipProgram.png');*/
@@ -55,6 +55,11 @@ background-size: cover;
 background-size: cover;*/
 /*background-image: url('../images/photo.png');*/
 
+.backgroundphoto {
+  background-size: cover;
+  width: 100vw;
+  margin-left: -8px;
+  position: fixed;
 }
 
 
@@ -106,10 +111,40 @@ nav a{
 }
 
 .pictureLink {
-  height: 250px;
-  width: 250px;
-  border: 1px solid black;
-  background-image: url("/images/tennis.png");
-  background-size: cover;
+  height: 260px;
+  width:  340px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
   justify-content: center;
+
+
+}
+
+.workContent {
+  margin-left: 50px;
+  margin-top: 20px;
+
+}
+
+#tennisMatcher {
+  background-image: url("/images/tennism.png");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#plusOne {
+  background-image: url("/images/plusone.png");
+  background-position: center;
+ background-size: cover;
+
+}
+
+.resume, .linkedin {
+  text-decoration: none;
+}
+
+.contactInfo{
+  text-align: center;
 }
