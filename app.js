@@ -32,7 +32,7 @@ angular
 function RouterFunction($stateProvider){
   $stateProvider
     .state('home', {
-      url: "/",
+      url: "",
       templateUrl: "ng-views/home.html",
       controller: "HomeIndexController",
       controllerAs: "vm"
