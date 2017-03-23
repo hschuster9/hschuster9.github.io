@@ -15,6 +15,11 @@ header {
 
 }
 
+.name {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
 .linkstyle {
   text-decoration: none;
 }
@@ -33,16 +38,80 @@ body {
   margin-top: 5%;
   text-align: center;
   font-size: 27px;
-
 }
 
+/*
+.nameAndTitle {
+  /*z-index: 1;
+  color: #3b5998;*/
 
-.backgroundPhoto {
+  /*font-size: 50px;
+  text-align: center;
+  margin-top: 100px;*/
+
+
+
+/*.title {
+  z-index: 1;
+  color: #3b5998;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+
+}*/
+
+/*comment back in if doesnt work:
+/*.backgroundPhoto {
   background-size: cover;
   width: 100vw;
   margin-left: -8px;
   position: fixed;
-  opacity: 0.9;
+  opacity: .9;
+
+}*/
+
+.backgroundPhoto {
+  position: fixed;
+  width: 100vw;
+  background-size: cover;
+  margin-left: -8px;
+  opacity: .9;
+}
+
+.nameBlock  {
+  position: fixed;
+  left: 0;
+   width: 100%;
+   color: white;
+   bottom: 60px;
+
+
+ }
+.titleBlock {
+position: fixed;
+bottom: 22px;
+left: 0;
+width: 100%;
+color: white;
+
+}
+
+
+
+.nameBlock span{
+   font: bold;
+   letter-spacing: 1px;
+   background: rgba(0, 0, 0, 0.7);
+   padding: 8px;
+   font-size: 30px;
+}
+
+
+.titleBlock span {
+   letter-spacing: 1px;
+   background: rgba(0, 0, 0, .7);
+   padding: 10px;
+   font-size: 18px;
 }
 
 nav {
@@ -55,10 +124,10 @@ nav {
 }
 
 nav a{
-
+  margin-right: 40px;
   font-weight: bold;
   display: inline-block;
-  padding: 8px 35px;
+  padding: 18px 5px;
   font-size: 18px;
   list-style-type: none;
   text-decoration: none;
@@ -72,11 +141,12 @@ nav a{
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 
 }
 
 .workContent {
-  margin-left: 80px;
+  margin-left: 100px;
   margin-top: 20px;
 
 }
@@ -121,9 +191,9 @@ nav a{
   background: steelblue;
   border-radius: 5px;
   display: inline-block;
-  height: 55px;
-  margin: 20px;
+  height: 60px;
   width: 90px;
+  margin: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -137,4 +207,10 @@ nav a{
 }
 .box {
   transition: all 1.3s;
+}
+
+.aboutPagePhoto {
+  height: 150px;
+  width: 120px;
+  border-radius: 50%;
 }
