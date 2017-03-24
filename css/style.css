@@ -13,6 +13,7 @@ header {
   align-items: center;
   justify-content: space-between;
    border-bottom: 1px solid #2fb682;
+   box-shadow: 0 0 8px 0 #ccc;
 
 }
 
@@ -244,8 +245,22 @@ nav a:hover {
   justify-content:center;
   align-items: center;
   text-align: justify;
+
 }
 
 .github, .linkedin, .email, .phone, .resume {
   height: 20px;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactInfo {
+  box-shadow: 3px 3px 5px 6px #ccc;
+  height: 350px;
+  width: 500px;
+
+
 }
