@@ -149,6 +149,7 @@ nav a{
   margin-left: 100px;
   margin-top: 20px;
 
+
 }
 
 #tennisMatcher {
@@ -209,8 +210,27 @@ nav a{
   transition: all 1.3s;
 }
 
-.aboutPagePhoto {
+.headShot {
   height: 150px;
-  width: 120px;
+  width: 150px;
   border-radius: 50%;
+
+}
+
+.headShotDiv {
+
+}
+
+.aboutDiv {
+  height: 500px;
+  width: 500px;
+  align-items: center;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: justify;
 }
