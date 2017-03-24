@@ -12,6 +12,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+   border-bottom: 1px solid #2fb682;
 
 }
 
@@ -29,12 +30,13 @@ header {
 
 body {
     font-family: 'Quicksand', sans-serif;
+    color: 	#333333;
 
 }
 
 .headers {
   font-family: 'Quicksand', sans-serif;
-  color: black;
+  color: #333333;
   margin-top: 5%;
   text-align: center;
   font-size: 27px;
@@ -131,7 +133,16 @@ nav a{
   font-size: 18px;
   list-style-type: none;
   text-decoration: none;
-  color: #43ad4a;
+  /*color: #43ad4a;*/
+  color: #00b159;
+}
+
+nav a:hover {
+  color: #555555;
+   /*background-color: #00b159;*/
+   border-radius: 2px;
+
+
 }
 
 .pictureLink {
@@ -233,4 +244,8 @@ nav a{
   justify-content:center;
   align-items: center;
   text-align: justify;
+}
+
+.github, .linkedin, .email, .phone, .resume {
+  height: 20px;
 }
