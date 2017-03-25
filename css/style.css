@@ -38,13 +38,13 @@ header {
 
 body {
     font-family: 'Quicksand', sans-serif;
-    color: 	#333333;
+    color: 	#003366;
 
 }
 
 .headers {
   font-family: 'Quicksand', sans-serif;
-  color: #333333;
+  color: #003366;
   margin-top: 5%;
   text-align: center;
   font-size: 27px;
@@ -224,25 +224,28 @@ nav a:hover {
 }
 
 .container {
-  margin: 100px;
+  margin: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
 }
 
 .box {
-  background: steelblue;
+  background: #ffa500;
   border-radius: 5px;
   display: inline-block;
   height: 60px;
-  width: 90px;
+  /*width: 90px;*/
   margin: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
+  width: 15%;
+  font-weight: bold;
 }
 
 .box:hover {
@@ -251,6 +254,10 @@ nav a:hover {
 .box {
   transition: all 1.3s;
 }
+.skillsHeaders {
+  margin-left: 40px;
+}
+
 
 .headShot {
   height: 150px;
@@ -267,7 +274,6 @@ nav a:hover {
   height: 500px;
   width: 500px;
   align-items: center;
-  
 }
 
 .aboutContainer {
@@ -311,7 +317,6 @@ nav a:hover {
   opacity: .6;
 }
 .aboutPage {
-  ;
-  width: 100vw;
+width: 100vw;
   margin-left: -8px;
 }
