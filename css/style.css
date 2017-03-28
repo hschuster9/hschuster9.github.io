@@ -1,5 +1,6 @@
 header {
-  background-color: white;
+background-color: white;
+
   position: fixed;
   height: 80px;
   width: 100vw;
@@ -79,8 +80,22 @@ body {
   opacity: .9;
 }*/
 
+.photoDiv {
+  background: url('../images/photo.png') no-repeat fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 1000px;
+  margin-left: -8px;
+  margin-bottom: -20px;
+}
+
+.nameTitleDiv {
+position: abolsute;
+}
+
+
 .backgroundPhoto {
-  position: fixed;
+  position: absolute;
   width: 100vw;
   background-size: cover;
   margin-left: -8px;
@@ -109,6 +124,7 @@ color: white;
    font: bold;
    letter-spacing: 1px;
    background: rgba(0, 0, 0, 0.7);
+
    padding: 8px;
    font-size: 30px;
 }
@@ -141,8 +157,9 @@ nav a{
 }
 
 nav a:hover {
-  color: #555555;
-   border-radius: 2px;
+  color: #7a7676;
+
+
 
 
 }
@@ -232,7 +249,8 @@ nav a:hover {
 }
 
 .box {
-  background: #ffa500;
+  /*background: #ffa500;*/
+  background: #191970;
   border-radius: 5px;
   display: inline-block;
   height: 60px;
@@ -243,7 +261,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 14px;
+  font-size: 15px;
   width: 15%;
   font-weight: bold;
 }
@@ -287,11 +305,13 @@ nav a:hover {
 }
 
 .contactLogos {
-  height: 35px;
+  height: 25px;
 }
 
 
-
+.contactLogos:hover {
+  opacity: .6;
+}
 
 
 .contactContainer {
@@ -313,9 +333,7 @@ nav a:hover {
 }
 
 
-.contactLogos:hover {
-  opacity: .6;
-}
+
 .aboutPage {
 width: 100vw;
   margin-left: -8px;
