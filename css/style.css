@@ -205,6 +205,13 @@ nav a:hover {
   padding-left: 100px;
 }
 
+#styleMe {
+  background-image: url("/images/styleme.png");
+  background-position: center;
+  background-size: cover;
+
+}
+
 
 #tennisMatcher {
   background-image: url("/images/tennis.png");
