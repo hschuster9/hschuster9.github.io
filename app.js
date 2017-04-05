@@ -6,6 +6,7 @@ angular
 ])
 .config([
   "$stateProvider",
+  "$urlRouterProvider",
   RouterFunction
 ])
 .controller("HomeIndexController", [
@@ -29,7 +30,7 @@ angular
   ContactControllerFunction
 ])
 
-function RouterFunction($stateProvider){
+function RouterFunction($stateProvider, $urlRouterProvider){
   $stateProvider
     .state('home', {
       url: "",
@@ -61,6 +62,7 @@ function RouterFunction($stateProvider){
       controller: "ContactController",
       controllerAs: "vm"
     })
+    $urlRouterProvider.otherwise("")
   }
 
 function HomeIndexControllerFunction($state){
