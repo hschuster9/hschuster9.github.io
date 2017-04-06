@@ -20,9 +20,9 @@ angular
   "$state",
   SkillsControllerFunction
 ])
-.controller("WorkController", [
+.controller("ProjectsController", [
   "$state",
-  WorkControllerFunction
+  ProjectsControllerFunction
 ])
 .controller("ContactController", [
   "$state",
@@ -49,10 +49,10 @@ function RouterFunction($stateProvider){
       controller: "SkillsController",
       controllerAs: "vm"
     })
-    .state('work', {
-      url: "/work",
-      templateUrl: "ng-views/work.html",
-      controller: "WorkController",
+    .state('projects', {
+      url: "/projects",
+      templateUrl: "ng-views/projects.html",
+      controller: "ProjectsController",
       controllerAs: "vm"
     })
     .state("contact", {
@@ -75,7 +75,7 @@ function SkillsControllerFunction($state){
 
 }
 
-function WorkControllerFunction($state){
+function ProjectsControllerFunction($state){
 
 }
 
