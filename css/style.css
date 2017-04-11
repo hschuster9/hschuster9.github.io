@@ -1,6 +1,6 @@
 header {
 /*background-color: #3b5998;*/
-background-color: #333333;
+  background-color: #333333;
   position: fixed;
   height: 75px;
   width: 100vw;
@@ -9,7 +9,6 @@ background-color: #333333;
   padding-left: 10px;
   padding-right: 20px;
   color: #5cb262;
-
   z-index: 1;
   display: flex;
   align-items: center;
@@ -18,7 +17,6 @@ background-color: #333333;
    /*box-shadow: 0 0 8px 0 #ccc;*/
 
 }
-
 
 .name {
   font-size: 24px;
@@ -31,7 +29,6 @@ background-color: #333333;
 }
 
 
-
 .linkstyle:hover {
   color: #3b5998;
 }
@@ -41,16 +38,14 @@ background-color: #333333;
 }
 
 body {
-
   font-family: 'Raleway', sans-serif;
-    /*font-family: 'Quicksand', sans-serif;*/
-    color: 	#003366;
+  /*font-family: 'Quicksand', sans-serif;*/
+  color: 	#003366;
 
 }
 
 .headers {
   font-family: 'Raleway', sans-serif;
-
   /*font-family: 'Quicksand', sans-serif;*/
   /*color: #003366;*/
   color: #333333;
@@ -58,7 +53,6 @@ body {
   text-align: center;
   font-size: 27px;
 }
-
 
 .homePhotoDiv {
   background: url('../images/photo.png') no-repeat fixed;
@@ -162,11 +156,8 @@ body {
 }
 
 
-
 nav {
-
-font-family: 'Raleway', sans-serif;
-  /*font-family: 'Quicksand', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
   margin-top: 14px;
 
 }
@@ -180,12 +171,12 @@ nav a{
   list-style-type: none;
   text-decoration: none;
   color: white;
-  /*color: #00b159;*/
+
 }
 
-nav a:hover {
-  color: #7a7676;
 
+nav a:hover {
+  color: #c3c3c3;
 }
 
 .pictureLink {
@@ -211,10 +202,10 @@ nav a:hover {
  }
 
 .workText {
-
+  color: #333333;
   height: 400px;
   width: 300px;
-   flex: 0 0 50%;
+  flex: 0 0 50%;
 
  }
 
@@ -222,7 +213,7 @@ nav a:hover {
   height: 400px;
   width: 350px;
   flex: 0 0 50%;
-   overflow: hidden;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
   padding-top: 200px;
@@ -263,13 +254,7 @@ nav a:hover {
 
 }
 
-.resume, .linkedin, .github {
-  text-decoration: none;
-}
 
-.contactInfo{
-  text-align: center;
-}
 
 .container {
   margin: 40px;
@@ -280,8 +265,9 @@ nav a:hover {
 }
 
 .box {
+  background: #5478e4;
+  /*background: #7a96ea;*/
 
-  background: #3b5998;
   border-radius: 5px;
   display: inline-block;
   height: 60px;
@@ -307,7 +293,6 @@ nav a:hover {
   margin-left: 40px;
 }
 
-
 .headShot {
   height: 150px;
   width: 150px;
@@ -320,8 +305,8 @@ nav a:hover {
 }
 
 .aboutDiv {
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 550px;
   align-items: center;
 }
 
@@ -336,7 +321,8 @@ nav a:hover {
 }
 
 .contactLogos {
-  height: 25px;
+  height: 35px;
+  border-radius: 50%;
 }
 
 
@@ -351,10 +337,10 @@ nav a:hover {
   align-items: center;
 }
 .contactInfo {
-  box-shadow: 3px 3px 3px 4px #ccc;
+  /*box-shadow: 1px 1px 1px 2px #ccc;*/
   height: 260px;
   width: 450px;
-  color: black;
+  color: #333333;
 
 }
 
@@ -364,10 +350,23 @@ nav a:hover {
   margin-top: 40px;
 }
 
+.resume {
+  color: #1874cd;
+  text-decoration: none;
+}
 
+.resume:hover {
+  color: #3b5998;
+}
+
+
+.contactInfo{
+  text-align: center;
+}
 
 .aboutPage {
   width: 100vw;
   margin-left: -8px;
+  color: #333333;
 
 }
