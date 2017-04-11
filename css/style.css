@@ -1,22 +1,24 @@
 header {
-background-color: white;
-
+/*background-color: #3b5998;*/
+background-color: #333333;
   position: fixed;
-  height: 80px;
+  height: 75px;
   width: 100vw;
   top: 0;
   left: 0;
   padding-left: 10px;
   padding-right: 20px;
   color: #5cb262;
+
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
-   border-bottom: 1px solid #d8d8d8;
-   box-shadow: 0 0 8px 0 #ccc;
+   /*border-bottom: 1px solid #d8d8d8;*/
+   /*box-shadow: 0 0 8px 0 #ccc;*/
 
 }
+
 
 .name {
   font-size: 24px;
@@ -33,74 +35,54 @@ background-color: white;
 .linkstyle:hover {
   color: #3b5998;
 }
+
 #title {
-  font-size: 15x;
+  font-size: 15px;
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
+
+  font-family: 'Raleway', sans-serif;
+    /*font-family: 'Quicksand', sans-serif;*/
     color: 	#003366;
 
 }
 
 .headers {
+  font-family: 'Raleway', sans-serif;
 
-  font-family: 'Quicksand', sans-serif;
-  color: #003366;
+  /*font-family: 'Quicksand', sans-serif;*/
+  /*color: #003366;*/
+  color: #333333;
   margin-top: 5%;
   text-align: center;
   font-size: 27px;
 }
 
-/*
-.nameAndTitle {
-  /*z-index: 1;
-  color: #3b5998;*/
 
-  /*font-size: 50px;
-  text-align: center;
-  margin-top: 100px;*/
-
-
-
-/*ALREADY COMMENTED OUT
-.title {
-  z-index: 1;
-  color: #3b5998;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 100px;
-}*/
-
-/*comment back in if doesnt work:
-/*.backgroundPhoto {
-  background-size: cover;
-  width: 100vw;
-  margin-left: -8px;
-  position: fixed;
-  opacity: .9;
-}*/
-
-.photoDiv {
+.homePhotoDiv {
   background: url('../images/photo.png') no-repeat fixed;
   background-size: cover;
   width: 100vw;
-  height: 800px;
+  height: 100vh;
   margin-left: -8px;
   margin-bottom: -20px;
+  opacity: .9;
+  position: fixed;
+  margin-top: -8px;
 }
 
 .nameTitleDiv {
-position: absolute;
-}
+  position: absolute;
 
+}
 
 .backgroundPhoto {
   position: absolute;
   width: 100vw;
   background-size: cover;
   margin-left: -8px;
-  opacity: .9;
+  opacity: .8;
 }
 
 .nameBlock  {
@@ -108,16 +90,17 @@ position: absolute;
   left: 0;
    width: 100%;
    color: white;
-   bottom: 60px;
+   bottom: 130px;
 
 
  }
 .titleBlock {
-position: fixed;
-bottom: 22px;
-left: 0;
-width: 100%;
-color: white;
+  position: fixed;
+  bottom: 90px;
+
+  left: 0;
+  width: 100%;
+  color: white;
 
 }
 
@@ -125,9 +108,10 @@ color: white;
    font: bold;
    letter-spacing: 1px;
    background: rgba(0, 0, 0, 0.7);
-
    padding: 8px;
    font-size: 30px;
+   border-radius: 5px;
+
 }
 
 
@@ -136,11 +120,53 @@ color: white;
    background: rgba(0, 0, 0, .7);
    padding: 10px;
    font-size: 18px;
+   border-radius: 5px;
 }
+
+.button {
+  background: black;
+    /*color: #fff;*/
+    /*border: 2px solid #fafafa;*/
+    border: 2px solid none;
+    border-radius: 4px;
+    font-size: 17px;
+    padding: 7px 12px;
+    font-weight: normal;
+    /*margin: 6px 0;
+    margin-right: 12px;*/
+    /*display: inline-block;*/
+    text-decoration: none;
+    min-width: 120px;
+    font-weight: 400px;
+    display: inline-block;
+    -webkit-transition: background-color .5s linear;
+    -moz-transition: background-color .5s linear;
+    -ms-transition: background-color .5s linear;
+    -o-transition: background-color .5s linear;
+    transition: background-color .5s linear;
+    position: fixed;
+    text-align: center;
+    color: white;
+    bottom: 38px;
+
+
+}
+
+.button:hover, .button:active {
+  color: white;
+  font-weight: bold;
+  border: 1px solid #fafafa;
+  /*background-color:rgba(0, 150, 136, 0.4);*/
+  /*background-color:rgba(221,221,221, 0.4);*/
+  background-color:rgba(51,51,51, 0.4);
+}
+
+
 
 nav {
 
-  font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+  /*font-family: 'Quicksand', sans-serif;*/
   margin-top: 14px;
 
 }
@@ -153,15 +179,12 @@ nav a{
   font-size: 18px;
   list-style-type: none;
   text-decoration: none;
-
-  color: #00b159;
+  color: white;
+  /*color: #00b159;*/
 }
 
 nav a:hover {
   color: #7a7676;
-
-
-
 
 }
 
@@ -206,8 +229,8 @@ nav a:hover {
   padding-left: 100px;
 }
 
-#styleMe {
-  background-image: url("/images/styleme.png");
+#styleIt {
+  background-image: url("/images/styleit.png");
   background-position: center;
   background-size: cover;
 
@@ -257,8 +280,8 @@ nav a:hover {
 }
 
 .box {
-  /*background: #ffa500;*/
-  background: #191970;
+
+  background: #3b5998;
   border-radius: 5px;
   display: inline-block;
   height: 60px;
@@ -331,6 +354,7 @@ nav a:hover {
   box-shadow: 3px 3px 3px 4px #ccc;
   height: 260px;
   width: 450px;
+  color: black;
 
 }
 
@@ -343,6 +367,7 @@ nav a:hover {
 
 
 .aboutPage {
-width: 100vw;
+  width: 100vw;
   margin-left: -8px;
+
 }
