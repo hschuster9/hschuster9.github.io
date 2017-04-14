@@ -182,6 +182,7 @@ nav a:hover {
 .pictureLink {
   height: 260px;
   width:  340px;
+  margin-left: 40px;
   border: 1px solid gray;
   display: flex;
   /*align-items: center;*/
@@ -211,13 +212,13 @@ nav a:hover {
 
 .workPhoto {
   height: 400px;
-  width: 350px;
+  width: 50px;
   flex: 0 0 50%;
   overflow: hidden;
   align-items: center;
   justify-content: center;
   padding-top: 200px;
-  padding-left: 100px;
+  padding-left: 0px;
 }
 
 #styleIt {
