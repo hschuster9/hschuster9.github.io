@@ -1,5 +1,5 @@
 header {
-/*background-color: #3b5998;*/
+
   background-color: #333333;
   position: fixed;
   height: 75px;
@@ -13,8 +13,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-   /*border-bottom: 1px solid #d8d8d8;*/
-   /*box-shadow: 0 0 8px 0 #ccc;*/
+
 
 }
 
@@ -39,15 +38,12 @@ header {
 
 body {
   font-family: 'Raleway', sans-serif;
-  /*font-family: 'Quicksand', sans-serif;*/
   color: 	#003366;
 
 }
 
 .headers {
   font-family: 'Raleway', sans-serif;
-  /*font-family: 'Quicksand', sans-serif;*/
-  /*color: #003366;*/
   color: #333333;
   margin-top: 5%;
   text-align: center;
@@ -85,13 +81,11 @@ body {
    width: 100%;
    color: white;
    bottom: 130px;
+}
 
-
- }
 .titleBlock {
   position: fixed;
   bottom: 90px;
-
   left: 0;
   width: 100%;
   color: white;
@@ -143,7 +137,7 @@ body {
 .button:hover, .button:active {
   color: white;
   font-weight: bold;
-  border: 1px solid #fafafa;
+  border: 1px solid #858585;
   background-color:rgba(51,51,51, 0.4);
 }
 
@@ -175,13 +169,22 @@ nav a:hover {
   height: 260px;
   width:  340px;
   margin-left: 40px;
-  border: 1px solid gray;
+  border: 1.5px solid gray;
   display: flex;
-  /*align-items: center;*/
-  /*justify-content: center;*/
   border-radius: 10px;
 
 }
+
+
+.pictureLink:hover {
+    transform: scale(1.1);
+    opacity: .8;
+}
+
+.pictureLink {
+  transition: all .9s;
+}
+
 
 .workContent {
   margin-left: 100px;
@@ -199,8 +202,7 @@ nav a:hover {
   height: 400px;
   width: 300px;
   flex: 0 0 50%;
-
- }
+}
 
 .workPhoto {
   height: 400px;
@@ -228,10 +230,6 @@ nav a:hover {
 
 }
 
-.pictureLink:hover {
-  opacity: .7;
-
-}
 
 #plusOne {
   background-image: url("/images/plusone.png");
@@ -246,8 +244,6 @@ nav a:hover {
   background-size: cover;
 
 }
-
-
 
 .container {
   margin: 40px;
@@ -294,14 +290,16 @@ nav a:hover {
 }
 
 .headShotDiv {
-
+  display: none;
 }
 
 .aboutDiv {
   height: 300px;
   width: 550px;
   align-items: center;
+  display: none;
 }
+
 
 .aboutContainer {
   display: flex;
@@ -310,14 +308,12 @@ nav a:hover {
   align-items: center;
   text-align: justify;
 
-
 }
 
 .contactLogos {
   height: 35px;
   border-radius: 50%;
 }
-
 
 .contactLogos:hover {
   opacity: .6;
@@ -330,7 +326,6 @@ nav a:hover {
   align-items: center;
 }
 .contactInfo {
-  /*box-shadow: 1px 1px 1px 2px #ccc;*/
   height: 260px;
   width: 450px;
   color: #333333;

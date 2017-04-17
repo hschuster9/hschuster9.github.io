@@ -68,6 +68,10 @@ function HomeIndexControllerFunction($state){
 }
 
 function AboutControllerFunction($state){
+  $(document).ready(function(){
+      $(".headShotDiv").slideDown(950);
+      $(".aboutDiv").fadeIn(2500);
+  });
 
 }
 
@@ -81,4 +85,4 @@ function ProjectsControllerFunction($state){
 
 function ContactControllerFunction($state){
 
-}
+    }
