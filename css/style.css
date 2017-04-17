@@ -253,20 +253,23 @@ nav a:hover {
 
 }
 
+
 .box {
   background: #5478e4;
-  border-radius: 5px;
+  border-radius: 25px;
   display: inline-block;
-  height: 60px;
+  height: 65px;
   margin: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 15px;
-  width: 15%;
+  font-size: 16px;
+  width: 14%;
   font-weight: bold;
+
+
 }
 
 .box:hover {
