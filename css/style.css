@@ -14,7 +14,6 @@ header {
   align-items: center;
   justify-content: space-between;
 
-
 }
 
 .name {
@@ -297,7 +296,7 @@ nav a:hover {
 }
 
 .aboutDiv {
-  height: 300px;
+  height: 350px;
   width: 550px;
   align-items: center;
   display: none;
@@ -311,6 +310,9 @@ nav a:hover {
   align-items: center;
   text-align: justify;
 
+}
+.aboutDiv > p {
+  font-size: 15px;
 }
 
 .contactLogos {
