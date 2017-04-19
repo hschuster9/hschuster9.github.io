@@ -80,6 +80,7 @@ body {
    width: 100%;
    color: white;
    bottom: 130px;
+
 }
 
 .titleBlock {
@@ -94,20 +95,24 @@ body {
 .nameBlock span{
    font: bold;
    letter-spacing: 1px;
-   background: rgba(0, 0, 0, 0.7);
-   padding: 8px;
+   background: rgba(0, 0, 0, 0.9);
+   padding: 10px 22px;
    font-size: 30px;
    border-radius: 5px;
+
+
 
 }
 
 
 .titleBlock span {
    letter-spacing: 1px;
-   background: rgba(0, 0, 0, .7);
-   padding: 10px;
+   background: rgba(0, 0, 0, .9);
+   /*padding: 10px;*/
    font-size: 18px;
    border-radius: 5px;
+
+   padding: 9px 26px 12px;
 }
 
 .button {
