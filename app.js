@@ -64,7 +64,14 @@ function RouterFunction($stateProvider){
   }
 
 function HomeIndexControllerFunction($state){
-
+  function blink(selector){
+    $(selector).fadeOut(2000, function(){
+      $(this).fadeIn(800, function(){
+        blink(this)
+      })
+    })
+  }
+blink('.blink')
 }
 
 function AboutControllerFunction($state){
@@ -76,6 +83,9 @@ function AboutControllerFunction($state){
 }
 
 function SkillsControllerFunction($state){
+  $(document).ready(function(){
+      $(".skillsContainer").show(1000, "linear");
+  });
 
 }
 

@@ -244,11 +244,16 @@ nav a:hover {
 
 }
 
+.skillsContainer {
+  display: none;
+}
+
 .container {
   margin: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
 
 }
 
