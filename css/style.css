@@ -260,19 +260,20 @@ nav a:hover {
 }
 
 .box {
-  background: #5478e4;
+  /*background: #5478e4;*/
   border-radius: 25px;
   display: inline-block;
-  height: 65px;
+  height: 200px;
   margin: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #5478e4;
   font-size: 16px;
   width: 14%;
   font-weight: bold;
+
 }
 
 .box:hover {
@@ -282,6 +283,17 @@ nav a:hover {
 .box {
   transition: all 1.3s;
 }
+
+.icon {
+  font-size: 4em;
+}
+
+.box ul {
+  list-style: none;
+  margin: 0 auto;
+
+}
+
 
 .skillsHeaders {
   margin-left: 40px;
