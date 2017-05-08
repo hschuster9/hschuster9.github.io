@@ -64,6 +64,7 @@ body {
 .nameTitleDiv {
   position: absolute;
 
+
 }
 
 .backgroundPhoto {
@@ -82,6 +83,7 @@ body {
    bottom: 130px;
 
 }
+
 
 .titleBlock {
   position: fixed;
@@ -115,7 +117,7 @@ body {
 
 .button {
   background: black;
-  border: 2px solid none;
+  border: 1px solid #333333;
   border-radius: 4px;
   font-size: 17px;
   padding: 7px 12px;
@@ -138,9 +140,10 @@ body {
 
 .button:hover, .button:active {
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
   border: 1px solid #858585;
-  background-color:rgba(51,51,51, 0.4);
+  /*background-color:rgba(51,51,51, 0.4);*/
+  background-color:rgba(51,51,51, 0.1);
 }
 
 
