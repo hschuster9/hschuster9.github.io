@@ -34,6 +34,7 @@ body{
   flex-direction: row;
   justify-content: space-between;
   align-content: space-between;
+  position: relative;
  }
 
 .workText {
@@ -74,10 +75,20 @@ body{
 }
 
 
+
 #plusOne {
   background-image: url("../img/portfolio/fullsize/plusone.png");
   background-position: center;
   background-size: cover;
+
+}
+
+.workContainer {
+  height: 600px;
+  text-align: center;
+}
+
+
 
 
 }
@@ -87,4 +98,12 @@ body{
   background-position: center;
   background-size: cover;
 
+}
+
+
+.box:hover {
+    transform: scale(1.1);
+}
+.box {
+  transition: all 1s;
 }
