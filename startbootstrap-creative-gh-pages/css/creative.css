@@ -80,6 +80,7 @@ aside {
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
   color: #eb3812;
+
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
@@ -337,7 +338,7 @@ fieldset[disabled] .btn-default.active {
   color: white;
   background-color: #222222;
 }
-.btn-primary {
+.btn-primary{
   color: white;
   background-color: #F05F40;
   border-color: #F05F40;
@@ -345,6 +346,8 @@ fieldset[disabled] .btn-default.active {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
+
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
@@ -379,6 +382,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
   background-color: #F05F40;
+
   border-color: #F05F40;
 }
 .btn-primary .badge {
