@@ -1,0 +1,92 @@
+
+body, h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   font-family: 'Raleway', sans-serif;
+}
+
+.pictureLink {
+  height: 260px;
+  width:  340px;
+  margin-left: 40px;
+  border: 1.5px solid gray;
+  display: flex;
+  border-radius: 10px;
+
+}
+
+
+.pictureLink:hover {
+    transform: scale(1.1);
+    opacity: .8;
+}
+
+.pictureLink {
+  transition: all .9s;
+}
+
+
+.workContent {
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+ }
+
+.workText {
+  color: #333333;
+  height: 400px;
+  width: 300px;
+  flex: 0 0 50%;
+  padding-left: 200px;
+
+}
+
+.workPhoto {
+  height: 400px;
+  width: 50px;
+  flex: 0 0 50%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+
+  /*padding-left: 60px;*/
+  display: flex;
+}
+
+#styleIt {
+  background-image: url("../img/portfolio/fullsize/style_it.png");
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+
+#tennisMatcher {
+  background-image: url("../img/portfolio/fullsize/tennis.png");
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+#plusOne {
+  background-image: url("../img/portfolio/fullsize/plusone.png");
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+#hangman {
+  background-image: url("../img/portfolio/fullsize/hangman.png");
+  background-position: center;
+  background-size: cover;
+
+}
