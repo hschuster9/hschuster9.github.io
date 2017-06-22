@@ -93,12 +93,12 @@ body{
 
 }
 
-#hangman {
+/*#hangman {
   background-image: url("../img/portfolio/fullsize/hangman.png");
   background-position: center;
   background-size: cover;
 
-}
+}*/
 
 
 .box:hover {
